@@ -1,0 +1,19 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "programs": "Programs",
+        "contact": "Contact"
+    },
+    "hero": {
+        "subtitle": "Unleash Your Potential",
+        "title_1": "Push Past",
+        "title_2": "Your",
+        "title_limit": "Limits",
+        "desc": "Professional personal training to help you build muscle, lose fat, and achieve the body you've always wanted.",
+        "btn_start": "Start Your Journey",
+        "btn_consult": "Free Consultation",
+        "clients": "Clients Transformed",
+        "experience": "Years Experience"
+    }
+}

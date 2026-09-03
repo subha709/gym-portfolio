@@ -1,0 +1,154 @@
+<template>
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <div class="text-center section-header">
+                <h4 class="section-subtitle text-primary">Training Programs</h4>
+                <h2 class="section-title">Choose Your Path</h2>
+                <p class="section-desc">Tailored programs to suit your specific goals, fitness level, and lifestyle.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card glass-panel group">
+                    <div class="card-img-top"
+                        style="background-image: url('https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=2070&auto=format&fit=crop');">
+                    </div>
+                    <div class="card-body">
+                        <h3>1-on-1 Personal Training</h3>
+                        <p>Direct interaction, real-time posture correction, and full attention to your specific needs.
+                        </p>
+                        <a href="#contact" class="link-btn">Learn More <span class="arrow">→</span></a>
+                    </div>
+                </div>
+
+                <div class="service-card glass-panel group">
+                    <div class="card-img-top"
+                        style="background-image: url('https://images.unsplash.com/photo-1548690312-e3b507d8c110?q=80&w=2070&auto=format&fit=crop');">
+                    </div>
+                    <div class="card-body">
+                        <h3>Online Coaching</h3>
+                        <p>Access your training plan from anywhere. Includes weekly check-ins and video technique
+                            review.</p>
+                        <a href="#contact" class="link-btn">Learn More <span class="arrow">→</span></a>
+                    </div>
+                </div>
+
+                <div class="service-card glass-panel group">
+                    <div class="card-img-top"
+                        style="background-image: url('https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=2053&auto=format&fit=crop');">
+                    </div>
+                    <div class="card-body">
+                        <h3>Nutrition Planning</h3>
+                        <p>Stop guessing. Get a calculated, easy-to-follow meal plan that fuels your body for results.
+                        </p>
+                        <a href="#contact" class="link-btn">Learn More <span class="arrow">→</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
+
+<style scoped>
+.section-padding {
+    padding: 100px 0;
+    background-color: var(--bg-card);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section-header {
+    max-width: 600px;
+    margin: 0 auto 60px;
+}
+
+.section-subtitle {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.section-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.section-desc {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+}
+
+.service-card {
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    border-color: rgba(255, 59, 59, 0.3);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.6s ease;
+}
+
+.service-card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 30px;
+    flex: 1;
+    background: var(--glass-bg);
+    position: relative;
+    z-index: 2;
+}
+
+.card-body h3 {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+
+.card-body p {
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.link-btn {
+    display: inline-flex;
+    align-items: center;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.link-btn .arrow {
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover .link-btn .arrow {
+    transform: translateX(5px);
+}
+</style>
