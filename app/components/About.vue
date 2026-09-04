@@ -49,6 +49,52 @@
                 <a href="#services" class="btn mt-30">View Programs</a>
             </div>
         </div>
+
+        <div class="container trainer-overview">
+            <div class="section-heading">
+                <h4 class="section-subtitle text-primary">Trainer Introduction</h4>
+                <h2 class="section-title">Built for real results, not quick fixes.</h2>
+            </div>
+
+            <div class="overview-grid">
+                <article class="info-card">
+                    <span class="card-tag">Experience</span>
+                    <h3>10+ years coaching clients</h3>
+                    <p>
+                        I have guided beginners, athletes, and busy professionals through strength building,
+                        fat loss, and sustainable lifestyle transformations with a clear, results-focused plan.
+                    </p>
+                </article>
+
+                <article class="info-card">
+                    <span class="card-tag">Certifications</span>
+                    <h3>Elite-level fitness credentials</h3>
+                    <p>
+                        Certified in personal training and strength coaching, with continued education in
+                        corrective exercise, performance training, and nutrition-based transformation strategies.
+                    </p>
+                </article>
+
+                <article class="info-card">
+                    <span class="card-tag">Training Philosophy</span>
+                    <h3>Discipline + smart progress</h3>
+                    <p>
+                        Training should challenge the body, respect recovery, and empower the mind. I focus on
+                        intelligent progressions, consistency, and habits that last beyond the gym.
+                    </p>
+                </article>
+
+                <article class="info-card story-card">
+                    <span class="card-tag">Short Personal Story</span>
+                    <h3>From fitness passion to purpose</h3>
+                    <p>
+                        What started as a personal mission to transform my own health became a calling to help
+                        others become stronger, healthier, and more confident in their own bodies. That journey
+                        continues every day with every client I coach.
+                    </p>
+                </article>
+            </div>
+        </div>
     </section>
 </template>
 
@@ -182,6 +228,55 @@
     margin: 0;
 }
 
+.trainer-overview {
+    margin-top: 80px;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.overview-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.info-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 22px;
+    padding: 28px 24px;
+    box-shadow: 0 18px 30px rgba(0, 0, 0, 0.12);
+}
+
+.card-tag {
+    display: inline-block;
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--primary);
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.info-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    line-height: 1.3;
+}
+
+.info-card p {
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin: 0;
+}
+
+.story-card {
+    background: linear-gradient(135deg, rgba(255, 59, 59, 0.08), rgba(255, 255, 255, 0.03));
+}
+
 .mt-30 {
     margin-top: 30px;
 }
@@ -206,6 +301,10 @@
 
     .section-title {
         font-size: 2.5rem;
+    }
+
+    .overview-grid {
+        grid-template-columns: 1fr;
     }
 }
 </style>

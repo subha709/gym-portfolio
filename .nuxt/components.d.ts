@@ -16,6 +16,7 @@ type LazyComponent<T> = DefineComponent<HydrationStrategies, {}, {}, {}, {}, {},
 
 export const About: typeof import("../app/components/About.vue")['default']
 export const Footer: typeof import("../app/components/Footer.vue")['default']
+export const Gallery: typeof import("../app/components/Gallery.vue")['default']
 export const Header: typeof import("../app/components/Header.vue")['default']
 export const Hero: typeof import("../app/components/Hero.vue")['default']
 export const Services: typeof import("../app/components/Services.vue")['default']
@@ -45,6 +46,7 @@ export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const LazyAbout: LazyComponent<typeof import("../app/components/About.vue")['default']>
 export const LazyFooter: LazyComponent<typeof import("../app/components/Footer.vue")['default']>
+export const LazyGallery: LazyComponent<typeof import("../app/components/Gallery.vue")['default']>
 export const LazyHeader: LazyComponent<typeof import("../app/components/Header.vue")['default']>
 export const LazyHero: LazyComponent<typeof import("../app/components/Hero.vue")['default']>
 export const LazyServices: LazyComponent<typeof import("../app/components/Services.vue")['default']>

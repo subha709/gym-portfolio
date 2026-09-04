@@ -19,6 +19,7 @@
     "devDependencies": {
         "@nuxtjs/i18n": "^10.6.0",
         "@types/nodemailer": "^8.0.1",
+        "oxc-parser": "^0.143.0",
         "sass": "^1.77.8"
     }
 }

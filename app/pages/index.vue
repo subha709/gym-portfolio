@@ -4,6 +4,7 @@
         <Hero />
         <About />
         <Services />
+        <Gallery />
         <Transformations />
         <Footer />
     </div>
@@ -14,6 +15,7 @@ import Header from '~/components/Header.vue'
 import Hero from '~/components/Hero.vue'
 import About from '~/components/About.vue'
 import Services from '~/components/Services.vue'
+import Gallery from '~/components/Gallery.vue'
 import Transformations from '~/components/Transformations.vue'
 import Footer from '~/components/Footer.vue'
 
