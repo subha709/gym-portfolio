@@ -29,22 +29,22 @@ import aboutTrainerImage from '~/assets/images/about/about-trainer.jpg'
                     <li>
                         <div class="icon-box"><i class="icon-check"></i></div>
                         <div class="feature-text">
-                            <h5>Personalized Coaching</h5>
-                            <p>Plans built around your goals, schedule, and current fitness level.</p>
+                            <h5>NSQF Level 5 Fitness Trainer</h5>
+                            <p><span class="highlight">Government-recognized qualification</span> from SPEFL-SC / NCVET & Skill India with 600+ hours of advanced training in anatomy, programming, assessment, and progression.</p>
                         </div>
                     </li>
                     <li>
                         <div class="icon-box"><i class="icon-check"></i></div>
                         <div class="feature-text">
-                            <h5>Evidence-Based Training</h5>
-                            <p>Smart programming for fat loss, muscle gain, strength, and performance.</p>
+                            <h5>Nutrition Specialist</h5>
+                            <p><span class="highlight">Science-based dietary coaching</span> for sustainable fat loss, strength gain, and performance without crash diets or guesswork.</p>
                         </div>
                     </li>
                     <li>
                         <div class="icon-box"><i class="icon-check"></i></div>
                         <div class="feature-text">
-                            <h5>Nutrition + Accountability</h5>
-                            <p>Simple habits, sustainable meal guidance, and constant support.</p>
+                            <h5>CPR, AED & First Aid</h5>
+                            <p><span class="highlight">Safety-first training environment</span> with practical emergency response knowledge for complete client peace of mind.</p>
                         </div>
                     </li>
                 </ul>
@@ -71,10 +71,10 @@ import aboutTrainerImage from '~/assets/images/about/about-trainer.jpg'
 
                 <article class="info-card">
                     <span class="card-tag">Certifications</span>
-                    <h3>Certified and continuously learning</h3>
+                    <h3>Qualified, certified, and trusted</h3>
                     <p>
-                        Certified in personal training and strength development, with a focus on corrective movement,
-                        structured progression, and smart nutrition coaching for performance and fat loss.
+                        Government-recognized Personal Fitness Trainer (NSQF Level 5), Certified Nutrition Specialist,
+                        and CPR, AED & First Aid Certified — building a foundation of safe, effective, and science-backed coaching.
                     </p>
                 </article>
 
@@ -282,6 +282,11 @@ import aboutTrainerImage from '~/assets/images/about/about-trainer.jpg'
 
 .mt-30 {
     margin-top: 30px;
+}
+
+.highlight {
+    color: var(--primary);
+    font-weight: 700;
 }
 
 @media (max-width: 992px) {

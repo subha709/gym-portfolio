@@ -10,7 +10,7 @@ import serviceThreeImage from '~/assets/images/programs/program-3.jpg'
             <div class="text-center section-header">
                 <h4 class="section-subtitle text-primary">Training Programs</h4>
                 <h2 class="section-title">Choose the plan that fits your goals</h2>
-                <p class="section-desc">Structured coaching for fat loss, strength building, better health, and performance — all personalized to your life.</p>
+                <p class="section-note">Real fitness isn’t about extreme diets or impossible gym routines. It’s about building a body that feels energetic, strong, and pain-free every day. I help you create a plan that is simple, sustainable, and designed around your real life — so you can train with confidence and keep progressing without burnout.</p>
             </div>
 
             <div class="services-grid">
@@ -75,6 +75,16 @@ import serviceThreeImage from '~/assets/images/programs/program-3.jpg'
 .section-desc {
     color: var(--text-muted);
     font-size: 1.1rem;
+}
+
+.section-note {
+    margin-top: 18px;
+    color: var(--text-muted);
+    font-size: 1.02rem;
+    line-height: 1.8;
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .services-grid {
