@@ -3,8 +3,8 @@
         <div class="container">
             <div class="footer-cta glass-panel">
                 <div class="cta-content">
-                    <h2>Ready to transform your life?</h2>
-                    <p>Book your free consultation today. Let's build the perfect plan for you.</p>
+                    <h2>Ready to start your transformation?</h2>
+                    <p>Book your free consultation today and get a plan built around your body, schedule, and goals.</p>
                 </div>
 
                 <div class="cta-form-container">
@@ -42,8 +42,7 @@
                             </a>
                         </div>
                     </div>
-                    <p class="mt-4 text-muted">Empowering individuals through fitness, nutrition, and healthy habits.
-                        Your journey to a better you starts here.</p>
+                    <p class="mt-4 text-muted">Helping people build strength, confidence, and lifelong fitness habits through smart coaching and sustainable results.</p>
                 </div>
 
                 <div class="footer-links">
@@ -64,14 +63,14 @@
 
                 <div class="footer-contact">
                     <h4>Contact</h4>
-                    <p>yourmail@example.com</p>
-                    <p>+1 (555) 123-4567</p>
-                    <p>123 Fitness Ave, NY 10001</p>
+                    <p>subhadeeppatra709@gmail.com</p>
+                    <p>Available online & in-person</p>
+                    <p>Personal training & coaching</p>
                 </div>
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2026 FIT. All rights reserved.</p>
+                <p>&copy; 2026 Surojit Gharami Fitness. All rights reserved.</p>
             </div>
         </div>
     </footer>

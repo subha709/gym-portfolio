@@ -20,9 +20,9 @@ import Transformations from '~/components/Transformations.vue'
 import Footer from '~/components/Footer.vue'
 
 useHead({
-    title: 'FIT. | Professional Gym Trainer & Coach',
+    title: 'Surojit Gharami | Gym Trainer & Performance Coach',
     meta: [
-        { name: 'description', content: 'Elevate your fitness journey with personalized training, nutrition plans, and expert coaching. Book your free consultation today.' }
+        { name: 'description', content: 'Personal training, fat loss coaching, strength programs, and nutrition support from Surojit Gharami.' }
     ],
     htmlAttrs: {
         lang: 'en'

@@ -18,18 +18,30 @@
 </template>
 
 <script setup>
+import gym1 from '~/assets/images/gallery/gym-1.jpg'
+import gym2 from '~/assets/images/gallery/gym-2.jpg'
+import gym3 from '~/assets/images/gallery/gym-3.jpg'
+import gym4 from '~/assets/images/gallery/gym-4.jpg'
+import gym5 from '~/assets/images/gallery/gym-5.jpg'
+import gym6 from '~/assets/images/gallery/gym-6.jpg'
+import gym7 from '~/assets/images/gallery/gym-7.jpg'
+import gym8 from '~/assets/images/gallery/gym-8.jpg'
+import gym9 from '~/assets/images/gallery/gym-9.jpg'
+import gym10 from '~/assets/images/gallery/gym-10.jpg'
+import gym11 from '~/assets/images/gallery/gym-11.jpg'
+
 const images = [
-    'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=900&q=80',
-    'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80',
-    'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=900&q=80',
-    'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=900&q=80',
-    'https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=900&q=80',
-    'https://images.unsplash.com/photo-1558611848-73f7eb4001a1?auto=format&fit=crop&w=900&q=80',
-    'https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&fit=crop&w=900&q=80',
-    'https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=900&q=80',
-    'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=80',
-    'https://images.unsplash.com/photo-1581009146145-b5ef050c2ec8?auto=format&fit=crop&w=900&q=80',
-    'https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=80'
+    gym1,
+    gym2,
+    gym3,
+    gym4,
+    gym5,
+    gym6,
+    gym7,
+    gym8,
+    gym9,
+    gym10,
+    gym11
 ]
 
 const galleryImages = [...images, ...images]

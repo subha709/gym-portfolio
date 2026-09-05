@@ -1,45 +1,42 @@
+<script setup>
+import serviceOneImage from '~/assets/images/programs/program-1.jpg'
+import serviceTwoImage from '~/assets/images/programs/program-2.jpg'
+import serviceThreeImage from '~/assets/images/programs/program-3.jpg'
+</script>
+
 <template>
     <section id="services" class="services section-padding">
         <div class="container">
             <div class="text-center section-header">
                 <h4 class="section-subtitle text-primary">Training Programs</h4>
-                <h2 class="section-title">Choose Your Path</h2>
-                <p class="section-desc">Tailored programs to suit your specific goals, fitness level, and lifestyle.</p>
+                <h2 class="section-title">Choose the plan that fits your goals</h2>
+                <p class="section-desc">Structured coaching for fat loss, strength building, better health, and performance — all personalized to your life.</p>
             </div>
 
             <div class="services-grid">
                 <div class="service-card glass-panel group">
-                    <div class="card-img-top"
-                        style="background-image: url('https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=2070&auto=format&fit=crop');">
-                    </div>
+                    <div class="card-img-top" :style="{ backgroundImage: `url(${serviceOneImage})` }"></div>
                     <div class="card-body">
                         <h3>1-on-1 Personal Training</h3>
-                        <p>Direct interaction, real-time posture correction, and full attention to your specific needs.
-                        </p>
+                        <p>Focused coaching with form correction, progressive programming, and direct accountability to help you perform better and stay consistent.</p>
                         <a href="#contact" class="link-btn">Learn More <span class="arrow">→</span></a>
                     </div>
                 </div>
 
                 <div class="service-card glass-panel group">
-                    <div class="card-img-top"
-                        style="background-image: url('https://images.unsplash.com/photo-1548690312-e3b507d8c110?q=80&w=2070&auto=format&fit=crop');">
-                    </div>
+                    <div class="card-img-top" :style="{ backgroundImage: `url(${serviceTwoImage})` }"></div>
                     <div class="card-body">
                         <h3>Online Coaching</h3>
-                        <p>Access your training plan from anywhere. Includes weekly check-ins and video technique
-                            review.</p>
+                        <p>Remote training made practical. Includes custom plans, weekly check-ins, progress tracking, and expert support from anywhere.</p>
                         <a href="#contact" class="link-btn">Learn More <span class="arrow">→</span></a>
                     </div>
                 </div>
 
                 <div class="service-card glass-panel group">
-                    <div class="card-img-top"
-                        style="background-image: url('https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=2053&auto=format&fit=crop');">
-                    </div>
+                    <div class="card-img-top" :style="{ backgroundImage: `url(${serviceThreeImage})` }"></div>
                     <div class="card-body">
                         <h3>Nutrition Planning</h3>
-                        <p>Stop guessing. Get a calculated, easy-to-follow meal plan that fuels your body for results.
-                        </p>
+                        <p>Simple, sustainable nutrition guidance designed to fuel your goals, improve energy, and support fat loss or lean muscle gains.</p>
                         <a href="#contact" class="link-btn">Learn More <span class="arrow">→</span></a>
                     </div>
                 </div>

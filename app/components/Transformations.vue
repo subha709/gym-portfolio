@@ -1,5 +1,11 @@
 <script setup>
 import { onMounted } from 'vue'
+import transformation1Before from '~/assets/images/transformations/transformation-1-before.jpg'
+import transformation1After from '~/assets/images/transformations/transformation-1-after.jpg'
+import transformation2Before from '~/assets/images/transformations/transformation-2-before.jpg'
+import transformation2After from '~/assets/images/transformations/transformation-2-after.jpg'
+import transformation3Before from '~/assets/images/transformations/transformation-3-before.jpg'
+import transformation3After from '~/assets/images/transformations/transformation-3-after.jpg'
 
 onMounted(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -38,12 +44,10 @@ onMounted(() => {
                 <!-- Transformation 1 -->
                 <div class="transform-card glass-panel group stagger-card">
                     <div class="image-comparison">
-                        <div class="before-img"
-                            style="background-image: url('https://images.unsplash.com/photo-1599058945522-28d584b6f4ff?q=80&w=800&auto=format&fit=crop');">
+                        <div class="before-img" :style="{ backgroundImage: `url(${transformation1Before})` }">
                             <span class="img-badge badge-before">Before</span>
                         </div>
-                        <div class="after-img"
-                            style="background-image: url('https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=800&auto=format&fit=crop');">
+                        <div class="after-img" :style="{ backgroundImage: `url(${transformation1After})` }">
                             <span class="img-badge badge-after">After</span>
                         </div>
                     </div>
@@ -58,12 +62,10 @@ onMounted(() => {
                 <!-- Transformation 2 -->
                 <div class="transform-card glass-panel group stagger-card">
                     <div class="image-comparison">
-                        <div class="before-img"
-                            style="background-image: url('https://images.unsplash.com/photo-1627483262112-039e9a0a0d16?q=80&w=800&auto=format&fit=crop');">
+                        <div class="before-img" :style="{ backgroundImage: `url(${transformation2Before})` }">
                             <span class="img-badge badge-before">Before</span>
                         </div>
-                        <div class="after-img"
-                            style="background-image: url('https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop');">
+                        <div class="after-img" :style="{ backgroundImage: `url(${transformation2After})` }">
                             <span class="img-badge badge-after">After</span>
                         </div>
                     </div>
@@ -78,12 +80,10 @@ onMounted(() => {
                 <!-- Transformation 3 -->
                 <div class="transform-card glass-panel group stagger-card">
                     <div class="image-comparison">
-                        <div class="before-img"
-                            style="background-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800&auto=format&fit=crop');">
+                        <div class="before-img" :style="{ backgroundImage: `url(${transformation3Before})` }">
                             <span class="img-badge badge-before">Before</span>
                         </div>
-                        <div class="after-img"
-                            style="background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=800&auto=format&fit=crop');">
+                        <div class="after-img" :style="{ backgroundImage: `url(${transformation3After})` }">
                             <span class="img-badge badge-after">After</span>
                         </div>
                     </div>

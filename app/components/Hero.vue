@@ -1,31 +1,32 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import heroBgImage from '~/assets/images/hero/hero-bg.jpg'
+import trainerImage from '~/assets/images/hero/hero-card.jpg'
+</script>
 
 <template>
     <section id="home" class="hero">
-        <div class="hero-bg"></div>
+        <div class="hero-bg" :style="{ backgroundImage: `url(${heroBgImage})` }"></div>
         <div class="hero-overlay"></div>
 
         <div class="container hero-content">
             <div class="hero-text-content animate-fade-in-up">
-                <h4 class="hero-subtitle text-primary">Unleash Your Potential</h4>
-                <h1 class="hero-title">Push Past <br />Your <span class="text-primary">Limits</span></h1>
-                <p class="hero-desc">Professional personal training to help you build muscle, lose fat, and achieve the
-                    body you've always wanted.</p>
+                <h4 class="hero-subtitle text-primary">Elite Strength Coach</h4>
+                <h1 class="hero-title">Train Harder.<br /> Look Stronger.<br /><span class="text-primary">Live Better.</span></h1>
+                <p class="hero-desc">I’m Surojit Gharami, a personal trainer and performance coach helping busy professionals, beginners, and athletes build strength, lose fat, and feel confident through smarter training and sustainable habits.</p>
                 <div class="hero-actions">
                     <a href="#services" class="btn">Start Your Journey</a>
                     <a href="#contact" class="btn-outline">Free Consultation</a>
                 </div>
             </div>
 
-            <div class="hero-image glass-panel animate-fade-in-up" style="animation-delay: 0.2s">
-                <!-- We use an image placeholder with styling -->
+            <div class="hero-image glass-panel animate-fade-in-up" :style="{ backgroundImage: `url(${trainerImage})` }" style="animation-delay: 0.2s">
                 <div class="stats-box pos-top">
                     <span class="stat-num">500+</span>
                     <span class="stat-text">Clients Transformed</span>
                 </div>
                 <div class="stats-box pos-bottom">
-                    <span class="stat-num">10+</span>
-                    <span class="stat-text">Years Experience</span>
+                    <span class="stat-num">8+</span>
+                    <span class="stat-text">Years of Coaching</span>
                 </div>
             </div>
         </div>
@@ -48,7 +49,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=2070&auto=format&fit=crop');
     background-size: cover;
     background-position: center;
     z-index: -2;
@@ -129,7 +129,6 @@
     width: 450px;
     height: 600px;
     border-radius: 20px;
-    background-image: url('https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=2070&auto=format&fit=crop');
     background-size: cover;
     background-position: center;
 }

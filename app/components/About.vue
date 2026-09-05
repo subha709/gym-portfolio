@@ -1,47 +1,50 @@
+<script setup>
+import aboutTrainerImage from '~/assets/images/about/about-trainer.jpg'
+</script>
+
 <template>
     <section id="about" class="about section-padding">
         <div class="container about-container">
             <div class="about-image">
                 <div class="image-wrapper glass-panel">
-                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2070&auto=format&fit=crop"
+                    <img :src="aboutTrainerImage"
                         alt="Trainer checking phone" class="img-fluid" />
                     <div class="experience-badge">
-                        <span class="years">10+</span>
-                        <span class="text">Years of<br />Dedication</span>
+                        <span class="years">8+</span>
+                        <span class="text">Years of<br />Results</span>
                     </div>
                 </div>
             </div>
 
             <div class="about-content">
                 <h4 class="section-subtitle text-primary">About Me</h4>
-                <h2 class="section-title">Your Coach, <br />Mentor, and Partner.</h2>
+                <h2 class="section-title">Your coach for<br />stronger habits and real change.</h2>
                 <p class="about-text">
-                    I believe that fitness is not just about building a good physique, but about building character,
-                    discipline, and a mindset that wins in every aspect of life. With over a decade of experience in
-                    personal training and nutrition consulting, I have the knowledge and passion to help you reach your
-                    goals.
+                    I’m Surojit Gharami, a dedicated fitness coach who believes true transformation is built on strength,
+                    discipline, and consistency. Over the years, I’ve helped people become leaner, stronger, and more
+                    confident by creating training and nutrition systems that fit real life — not just the gym.
                 </p>
 
                 <ul class="features-list">
                     <li>
                         <div class="icon-box"><i class="icon-check"></i></div>
                         <div class="feature-text">
-                            <h5>Certified Professional</h5>
-                            <p>ISSA & NASM Certified Master Trainer</p>
+                            <h5>Personalized Coaching</h5>
+                            <p>Plans built around your goals, schedule, and current fitness level.</p>
                         </div>
                     </li>
                     <li>
                         <div class="icon-box"><i class="icon-check"></i></div>
                         <div class="feature-text">
-                            <h5>Personalized Approach</h5>
-                            <p>Programs tailored to your body and lifestyle</p>
+                            <h5>Evidence-Based Training</h5>
+                            <p>Smart programming for fat loss, muscle gain, strength, and performance.</p>
                         </div>
                     </li>
                     <li>
                         <div class="icon-box"><i class="icon-check"></i></div>
                         <div class="feature-text">
-                            <h5>Nutritional Guidance</h5>
-                            <p>Custom meal plans that actually taste good</p>
+                            <h5>Nutrition + Accountability</h5>
+                            <p>Simple habits, sustainable meal guidance, and constant support.</p>
                         </div>
                     </li>
                 </ul>
@@ -53,44 +56,44 @@
         <div class="container trainer-overview">
             <div class="section-heading">
                 <h4 class="section-subtitle text-primary">Trainer Introduction</h4>
-                <h2 class="section-title">Built for real results, not quick fixes.</h2>
+                <h2 class="section-title">Built for sustainable results, not shortcuts.</h2>
             </div>
 
             <div class="overview-grid">
                 <article class="info-card">
                     <span class="card-tag">Experience</span>
-                    <h3>10+ years coaching clients</h3>
+                    <h3>8+ years coaching real people</h3>
                     <p>
-                        I have guided beginners, athletes, and busy professionals through strength building,
-                        fat loss, and sustainable lifestyle transformations with a clear, results-focused plan.
+                        I’ve worked with beginners, busy professionals, and focused athletes to improve strength,
+                        change body composition, and build long-term health habits without burnout.
                     </p>
                 </article>
 
                 <article class="info-card">
                     <span class="card-tag">Certifications</span>
-                    <h3>Elite-level fitness credentials</h3>
+                    <h3>Certified and continuously learning</h3>
                     <p>
-                        Certified in personal training and strength coaching, with continued education in
-                        corrective exercise, performance training, and nutrition-based transformation strategies.
+                        Certified in personal training and strength development, with a focus on corrective movement,
+                        structured progression, and smart nutrition coaching for performance and fat loss.
                     </p>
                 </article>
 
                 <article class="info-card">
                     <span class="card-tag">Training Philosophy</span>
-                    <h3>Discipline + smart progress</h3>
+                    <h3>Discipline meets balance</h3>
                     <p>
-                        Training should challenge the body, respect recovery, and empower the mind. I focus on
-                        intelligent progressions, consistency, and habits that last beyond the gym.
+                        Real fitness is about consistency, recovery, and habits that last. I combine technique,
+                        progression, and accountability so you improve without overwhelming your lifestyle.
                     </p>
                 </article>
 
                 <article class="info-card story-card">
                     <span class="card-tag">Short Personal Story</span>
-                    <h3>From fitness passion to purpose</h3>
+                    <h3>From passion to purpose</h3>
                     <p>
-                        What started as a personal mission to transform my own health became a calling to help
-                        others become stronger, healthier, and more confident in their own bodies. That journey
-                        continues every day with every client I coach.
+                        What started as a passion for fitness became a mission to help others feel stronger and more
+                        confident in their own skin. Every client I coach is a reminder that transformation is possible
+                        when effort meets the right guidance.
                     </p>
                 </article>
             </div>
